@@ -1,7 +1,7 @@
 # docker lab 
 
 # local execution on workstation
-sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
+sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher:stable
 
 # start vms in virtualbox
 # check new version URL https://github.com/rancher/os/releases 
